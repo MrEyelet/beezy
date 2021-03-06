@@ -1,6 +1,6 @@
 .hero {
   @include gradient;
-  min-height: 83vh;
+  // min-height: 83vh;
   &__wrapper {
     @include wrapper;
     display: flex;

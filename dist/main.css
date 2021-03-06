@@ -270,7 +270,6 @@ img {
   background: -webkit-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
   background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
-  min-height: 83vh;
 }
 .hero__wrapper {
   max-width: 132rem;
@@ -322,6 +321,71 @@ img {
 }
 .socials__ic:nth-of-type(n + 2) {
   margin-left: 1rem;
+}
+
+.form {
+  overflow: hidden;
+}
+.form__field {
+  max-width: 40rem;
+  width: 100%;
+  position: relative;
+  margin: 0 0 1rem;
+  width: 100%;
+}
+.form__group {
+  display: flex;
+}
+.form__input {
+  height: 5.5rem;
+  width: 100%;
+  border: none;
+  font-size: 2.4rem;
+  padding: 0 2rem;
+  position: relative;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.form__button {
+  height: 5.5rem;
+  padding: 0 3.7rem;
+  background-color: #ff6347;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 800;
+  border: none;
+  box-shadow: none;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.form__button:hover {
+  cursor: pointer;
+}
+.form__label {
+  padding: 0 2rem;
+  position: absolute;
+  left: 0;
+  top: 35%;
+  transform: translateY(-50%);
+  z-index: 100;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  color: #9fa3a7;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.form__state-icon {
+  position: absolute;
+  width: 1.5rem;
+  height: 30px;
+  right: 0.5rem;
+  top: 0.25rem;
+  background-repeat: no-repeat;
+}
+.form__error {
+  color: #ff4d4d;
+  transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  max-height: 0;
+  opacity: 0;
 }
 
 /*# sourceMappingURL=main.css.map*/
