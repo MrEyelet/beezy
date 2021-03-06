@@ -305,7 +305,7 @@ img {
   line-height: 1.21;
 }
 .intro__desc {
-  margin: 0 0 4.8rem 0;
+  margin: 0 0 5rem 0;
   color: rgba(255, 255, 255, 0.87);
   line-height: 1.42;
 }
@@ -327,7 +327,7 @@ img {
   overflow: hidden;
 }
 .form__field {
-  max-width: 40rem;
+  max-width: 41.5rem;
   width: 100%;
   position: relative;
   margin: 0 0 1rem;
@@ -341,14 +341,14 @@ img {
   width: 100%;
   border: none;
   font-size: 2.4rem;
-  padding: 0 2rem;
+  padding: 0 0 0 2rem;
   position: relative;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 .form__button {
   height: 5.5rem;
-  padding: 0 3.7rem;
+  padding: 0 3.5rem;
   background-color: #ff6347;
   color: #ffffff;
   text-transform: uppercase;
@@ -357,12 +357,14 @@ img {
   box-shadow: none;
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
+  font-size: 1.4rem;
+  letter-spacing: 2.8px;
 }
 .form__button:hover {
   cursor: pointer;
 }
 .form__label {
-  padding: 0 2rem;
+  padding: 0 0 0 2rem;
   position: absolute;
   left: 0;
   top: 35%;
@@ -372,14 +374,6 @@ img {
   line-height: 2.4rem;
   color: #9fa3a7;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-.form__state-icon {
-  position: absolute;
-  width: 1.5rem;
-  height: 30px;
-  right: 0.5rem;
-  top: 0.25rem;
-  background-repeat: no-repeat;
 }
 .form__error {
   color: #ff4d4d;

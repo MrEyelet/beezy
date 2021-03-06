@@ -1,7 +1,7 @@
 .form {
   overflow: hidden;
   &__field {
-    max-width: 40rem;
+    max-width: 41.5rem;
     width: 100%;
     position: relative;
     margin: 0 0 1rem;
@@ -15,14 +15,14 @@
     width: 100%;
     border: none;
     font-size: 2.4rem;
-    padding: 0 2rem;
+    padding: 0 0 0 2rem;
     position: relative;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
   }
   &__button {
     height: 5.5rem;
-    padding: 0 3.7rem;
+    padding: 0 3.5rem;
     background-color: $color-ornate;
     color: $color-white;
     text-transform: uppercase;
@@ -31,12 +31,14 @@
     box-shadow: none;
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
+    font-size: 1.4rem;
+    letter-spacing: 2.8px;
     &:hover {
       cursor: pointer;
     }
   }
   &__label {
-    padding: 0 2rem;
+    padding: 0 0 0 2rem;
     position: absolute;
     left: 0;
     top: 35%;
@@ -47,14 +49,14 @@
     color: $color-dimmed;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   }
-  &__state-icon {
-    position: absolute;
-    width: 1.5rem;
-    height: 30px;
-    right: 0.5rem;
-    top: 0.25rem;
-    background-repeat: no-repeat;
-  }
+  // &__state-icon {
+  //   position: absolute;
+  //   width: 1.5rem;
+  //   height: 30px;
+  //   right: 0.5rem;
+  //   top: 0.25rem;
+  //   background-repeat: no-repeat;
+  // }
   &__error {
     color: #ff4d4d;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
