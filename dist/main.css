@@ -211,7 +211,7 @@ template {
 html {
   font-size: 0.625vw;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
   html {
     font-size: 10px;
   }
@@ -221,21 +221,40 @@ body {
   font-family: "segoe", sans-serif;
   font-size: 2rem;
   font-weight: 300;
+  overflow-x: hidden;
 }
 
 h1 {
   font-size: 4.8rem;
   line-height: 5.2rem;
 }
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+}
 
 h2 {
   font-size: 4rem;
   line-height: 4.5rem;
 }
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 2.8;
+    line-height: 3rem;
+  }
+}
 
 h3 {
   font-size: 3rem;
   line-height: 3.54rem;
+}
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 2.5em;
+    line-height: 3rem;
+  }
 }
 
 h1,
@@ -250,7 +269,13 @@ p {
 
 p {
   font-size: 2.4rem;
-  line-height: 1.42rem;
+  line-height: 2.8rem;
+}
+@media only screen and (max-width: 768px) {
+  p {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
 }
 
 img {
@@ -271,6 +296,11 @@ img {
   background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
 }
+@media only screen and (max-width: 768px) {
+  .hero {
+    min-height: 100vh;
+  }
+}
 .hero__wrapper {
   max-width: 132rem;
   width: 100%;
@@ -278,6 +308,12 @@ img {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
+}
+@media (max-width: 576px) {
+  .hero__wrapper {
+    flex-direction: column;
+  }
 }
 
 .visual {
@@ -286,6 +322,24 @@ img {
   left: 11.5rem;
   bottom: -7.7rem;
 }
+@media only screen and (max-width: 768px) {
+  .visual {
+    left: 0;
+  }
+}
+@media (max-width: 576px) {
+  .visual {
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media (max-width: 576px) {
+  .visual__image {
+    position: absolute;
+    clip: rect(0px, auto, 30rem, 0px);
+  }
+}
 
 .intro {
   max-width: 64.5rem;
@@ -293,10 +347,22 @@ img {
   padding: 0 0 0 2rem;
   margin: 16.4rem 0 0 0;
 }
+@media (max-width: 576px) {
+  .intro {
+    margin-top: 4rem;
+    padding-left: 0;
+    text-align: center;
+  }
+}
 .intro__logo {
   max-width: 13.2rem;
   width: 100%;
   margin-bottom: 2.8rem;
+}
+@media (max-width: 576px) {
+  .intro__logo {
+    margin: 0 auto;
+  }
 }
 .intro__header {
   margin: 0 0 3rem 0;
@@ -304,10 +370,27 @@ img {
   font-weight: 300;
   line-height: 1.21;
 }
+@media only screen and (max-width: 768px) {
+  .intro__header {
+    font-size: 3.2rem;
+    line-height: 3.6rem;
+  }
+}
+@media (max-width: 576px) {
+  .intro__header {
+    margin-top: 35rem;
+  }
+}
 .intro__desc {
   margin: 0 0 5rem 0;
   color: rgba(255, 255, 255, 0.87);
   line-height: 1.42;
+}
+@media only screen and (max-width: 768px) {
+  .intro {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
 }
 
 .socials {
@@ -321,6 +404,11 @@ img {
 }
 .socials__ic:nth-of-type(n + 2) {
   margin-left: 1rem;
+}
+@media (max-width: 576px) {
+  .socials {
+    display: none;
+  }
 }
 
 .form {
@@ -363,6 +451,12 @@ img {
 .form__button:hover {
   cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+  .form__button {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+}
 .form__label {
   padding: 0 0 0 2rem;
   position: absolute;
@@ -374,12 +468,35 @@ img {
   line-height: 2.4rem;
   color: #9fa3a7;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  pointer-events: none;
+}
+@media only screen and (max-width: 768px) {
+  .form__label {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
 }
 .form__error {
   color: #ff4d4d;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
   max-height: 0;
   opacity: 0;
+}
+
+.form__field__input:invalid {
+  border-bottom: 1px solid #ff4d4d;
+}
+
+.form__field__input:placeholder-shown {
+  border-bottom: 1px solid #65449b;
+}
+
+.form__field__input:-ms-input-placeholder {
+  border-bottom: 1px solid #65449b;
+}
+
+.form__field__input:focus {
+  outline: none;
 }
 
 /*# sourceMappingURL=main.css.map*/

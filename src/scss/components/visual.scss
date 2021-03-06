@@ -3,4 +3,18 @@
   position: relative;
   left: 11.5rem;
   bottom: -7.7rem;
+  @include portrait {
+    left: 0;
+  }
+  @include phablet {
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  &__image {
+    @include phablet {
+      position: absolute;
+      clip: rect(0px, auto, 30rem, 0px);
+    }
+  }
 }

@@ -36,6 +36,10 @@
     &:hover {
       cursor: pointer;
     }
+    @include portrait {
+      font-size: 1.2rem;
+      line-height: 1.6rem;
+    }
   }
   &__label {
     padding: 0 0 0 2rem;
@@ -48,19 +52,32 @@
     line-height: 2.4rem;
     color: $color-dimmed;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    pointer-events: none;
+    @include portrait {
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+    }
   }
-  // &__state-icon {
-  //   position: absolute;
-  //   width: 1.5rem;
-  //   height: 30px;
-  //   right: 0.5rem;
-  //   top: 0.25rem;
-  //   background-repeat: no-repeat;
-  // }
   &__error {
     color: #ff4d4d;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     max-height: 0;
     opacity: 0;
   }
+}
+
+.form__field__input:invalid {
+  border-bottom: 1px solid #ff4d4d;
+}
+
+.form__field__input:placeholder-shown {
+  border-bottom: 1px solid #65449b;
+}
+
+.form__field__input:-ms-input-placeholder {
+  border-bottom: 1px solid #65449b;
+}
+
+.form__field__input:focus {
+  outline: none;
 }

@@ -1,9 +1,16 @@
 .hero {
   @include gradient;
   // min-height: 83vh;
+  @include portrait {
+    min-height: 100vh;
+  }
   &__wrapper {
     @include wrapper;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    @include phablet {
+      flex-direction: column;
+    }
   }
 }
