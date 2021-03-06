@@ -253,20 +253,50 @@ p {
   line-height: 1.42rem;
 }
 
+img {
+  width: 100%;
+}
+
+.section {
+  background: #142d4c;
+  background: -moz-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  background: -webkit-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
+  width: 100%;
+  min-height: 100vh;
+}
+
 /* BEM Blocks */
 .header {
   max-width: 120rem;
   width: 100%;
   padding: 0 2rem;
   margin: 0 auto;
-  background: #142d4c;
-  background: -moz-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  background: -webkit-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
   padding-top: 2.3rem;
   padding-bottom: 2.3rem;
   color: #ffffff;
+}
+
+.intro {
+  max-width: 64.5rem;
+  width: 100%;
+}
+.intro__logo {
+  max-width: 13.2rem;
+  width: 100%;
+  margin-bottom: 2.8rem;
+}
+.intro__header {
+  margin: 0 0 3rem 0;
+  color: #ffffff;
+  font-weight: 300;
+  line-height: 1.21;
+}
+.intro__desc {
+  margin: 0 0 4.8rem 0;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1.42;
 }
 
 /*# sourceMappingURL=main.css.map*/
