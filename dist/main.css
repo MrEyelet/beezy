@@ -279,6 +279,12 @@ img {
   margin: 0 auto;
 }
 
+.visual {
+  width: 37.4rem;
+  height: 73.2rem;
+  background: red;
+}
+
 .intro {
   max-width: 64.5rem;
   width: 100%;
@@ -309,7 +315,7 @@ img {
 .socials__ic {
   width: 3.2rem;
 }
-.socials__ic:nth-of-type(n + 1) {
+.socials__ic:nth-of-type(n + 2) {
   margin-left: 1rem;
 }
 
