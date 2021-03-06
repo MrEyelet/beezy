@@ -11,10 +11,22 @@
     left: 50%;
     transform: translateX(-50%);
   }
+  @include mobile-lg {
+    width: 30rem;
+  }
+  @include mobile-sm {
+    width: 20rem;
+  }
   &__image {
     @include phablet {
       position: absolute;
       clip: rect(0px, auto, 30rem, 0px);
+    }
+    @include mobile-lg {
+      clip: rect(0px, auto, 20rem, 0px);
+    }
+    @include mobile-sm {
+      clip: rect(0px, auto, 12rem, 0px);
     }
   }
 }

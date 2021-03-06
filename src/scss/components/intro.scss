@@ -30,6 +30,12 @@
       font-size: 2.4rem;
       line-height: 2.8rem;
     }
+    @include mobile-lg {
+      margin-top: 25rem;
+    }
+    @include mobile-sm {
+      margin-top: 16rem;
+    }
   }
   &__desc {
     margin: 0 0 5rem 0;

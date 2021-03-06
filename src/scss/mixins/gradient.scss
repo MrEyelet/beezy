@@ -4,4 +4,9 @@
   background: -webkit-linear-gradient(270deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
   background: linear-gradient(270deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
+  @include portrait {
+    background: -moz-linear-gradient(0deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
+    background: -webkit-linear-gradient(0deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
+    background: linear-gradient(0deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
+  }
 }
