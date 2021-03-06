@@ -20,6 +20,10 @@ h1 {
     font-size: 3.2rem;
     line-height: 3.6rem;
   }
+  @include phablet {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
 }
 h2 {
   font-size: 4rem;
@@ -28,13 +32,21 @@ h2 {
     font-size: 2.8;
     line-height: 3rem;
   }
+  @include phablet {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+  }
 }
 h3 {
   font-size: 3rem;
   line-height: 3.54rem;
   @include portrait {
     font-size: 2.5em;
-    line-height: 3rem;
+    line-height: 2.8rem;
+  }
+  @include phablet {
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 }
 h1,
@@ -52,6 +64,10 @@ p {
   @include portrait {
     font-size: 1.8rem;
     line-height: 2.2rem;
+  }
+  @include phablet {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 }
 img {

@@ -27,15 +27,21 @@
     }
     @include phablet {
       margin-top: 35rem;
+      font-size: 2.4rem;
+      line-height: 2.8rem;
     }
   }
   &__desc {
     margin: 0 0 5rem 0;
     color: $color-light;
     line-height: 1.42;
-  }
-  @include portrait {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    @include portrait {
+      font-size: 1.8rem;
+      line-height: 2.2rem;
+    }
+    @include phablet {
+      font-size: 1.6rem;
+      line-height: 2.4rem;
+    }
   }
 }

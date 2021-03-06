@@ -234,6 +234,12 @@ h1 {
     line-height: 3.6rem;
   }
 }
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+}
 
 h2 {
   font-size: 4rem;
@@ -245,6 +251,12 @@ h2 {
     line-height: 3rem;
   }
 }
+@media (max-width: 576px) {
+  h2 {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+  }
+}
 
 h3 {
   font-size: 3rem;
@@ -253,7 +265,13 @@ h3 {
 @media only screen and (max-width: 768px) {
   h3 {
     font-size: 2.5em;
-    line-height: 3rem;
+    line-height: 2.8rem;
+  }
+}
+@media (max-width: 576px) {
+  h3 {
+    font-size: 2rem;
+    line-height: 2.2rem;
   }
 }
 
@@ -275,6 +293,12 @@ p {
   p {
     font-size: 1.8rem;
     line-height: 2.2rem;
+  }
+}
+@media (max-width: 576px) {
+  p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 }
 
@@ -313,6 +337,7 @@ img {
 @media (max-width: 576px) {
   .hero__wrapper {
     flex-direction: column;
+    overflow: hidden;
   }
 }
 
@@ -329,7 +354,7 @@ img {
 }
 @media (max-width: 576px) {
   .visual {
-    top: 3rem;
+    top: 10rem;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -379,6 +404,8 @@ img {
 @media (max-width: 576px) {
   .intro__header {
     margin-top: 35rem;
+    font-size: 2.4rem;
+    line-height: 2.8rem;
   }
 }
 .intro__desc {
@@ -387,9 +414,15 @@ img {
   line-height: 1.42;
 }
 @media only screen and (max-width: 768px) {
-  .intro {
+  .intro__desc {
     font-size: 1.8rem;
     line-height: 2.2rem;
+  }
+}
+@media (max-width: 576px) {
+  .intro__desc {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 }
 
@@ -421,6 +454,11 @@ img {
   margin: 0 0 1rem;
   width: 100%;
 }
+@media (max-width: 576px) {
+  .form__field {
+    max-width: 100%;
+  }
+}
 .form__group {
   display: flex;
 }
@@ -433,6 +471,11 @@ img {
   position: relative;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+}
+@media (max-width: 576px) {
+  .form__input {
+    height: 4.5rem;
+  }
 }
 .form__button {
   height: 5.5rem;
@@ -451,10 +494,9 @@ img {
 .form__button:hover {
   cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
+@media (max-width: 576px) {
   .form__button {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    height: 4.5rem;
   }
 }
 .form__label {

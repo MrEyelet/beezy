@@ -7,7 +7,7 @@
     left: 0;
   }
   @include phablet {
-    top: 3rem;
+    top: 10rem;
     left: 50%;
     transform: translateX(-50%);
   }
