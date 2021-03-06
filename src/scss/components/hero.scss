@@ -2,5 +2,6 @@
   min-height: 80vh;
   &__wrapper {
     @include wrapper;
+    display: flex;
   }
 }
