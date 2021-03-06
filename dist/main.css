@@ -258,11 +258,6 @@ img {
 }
 
 .section {
-  background: #142d4c;
-  background: -moz-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  background: -webkit-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -270,28 +265,33 @@ img {
 
 /* BEM Blocks */
 .hero {
-  min-height: 80vh;
+  background: #142d4c;
+  background: -moz-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  background: -webkit-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
+  min-height: 83vh;
 }
 .hero__wrapper {
-  max-width: 120rem;
+  max-width: 132rem;
   width: 100%;
   padding: 0 2rem;
   margin: 0 auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .visual {
   width: 37.4rem;
-  height: 73.2rem;
   position: relative;
-  bottom: -10rem;
-  background: red;
+  left: 11.5rem;
+  bottom: -7.7rem;
 }
 
 .intro {
   max-width: 64.5rem;
   width: 100%;
-  padding: 0 0 0 16.7rem;
+  padding: 0 0 0 2rem;
   margin: 16.4rem 0 0 0;
 }
 .intro__logo {

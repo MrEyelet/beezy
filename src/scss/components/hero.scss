@@ -1,7 +1,9 @@
 .hero {
-  min-height: 80vh;
+  @include gradient;
+  min-height: 83vh;
   &__wrapper {
     @include wrapper;
     display: flex;
+    justify-content: space-between;
   }
 }
