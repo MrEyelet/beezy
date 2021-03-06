@@ -1,7 +1,7 @@
 @mixin gradient {
-  background: rgba(20, 45, 76, 1);
-  background: -moz-linear-gradient(270deg, rgba(98, 167, 255, 1) 0%, rgba(67, 90, 182, 1) 46%, rgba(63, 81, 173, 1) 51%, rgba(20, 45, 76, 1) 100%);
-  background: -webkit-linear-gradient(270deg, rgba(98, 167, 255, 1) 0%, rgba(67, 90, 182, 1) 46%, rgba(63, 81, 173, 1) 51%, rgba(20, 45, 76, 1) 100%);
-  background: linear-gradient(270deg, rgba(98, 167, 255, 1) 0%, rgba(67, 90, 182, 1) 46%, rgba(63, 81, 173, 1) 51%, rgba(20, 45, 76, 1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#62a7ff",endColorstr="#142d4c",GradientType=1);
+  background: $color-gradient-1;
+  background: -moz-linear-gradient(270deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
+  background: -webkit-linear-gradient(270deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
+  background: linear-gradient(270deg, $color-gradient-4 0%, $color-gradient-3 46%, $color-gradient-2 51%, $color-gradient-1 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
 }
