@@ -1,0 +1,6 @@
+.hero {
+  min-height: 80vh;
+  &__wrapper {
+    @include wrapper;
+  }
+}
