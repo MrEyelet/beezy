@@ -1,0 +1,272 @@
+/*MIXINS*/
+/*FUNCTIONS*/
+/*COMMON*/
+@font-face {
+  font-family: "segoe";
+  src: url(fonts/Light.woff) format("woff");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "segoe";
+  src: url(fonts/Regular.woff) format("woff");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: "segoe";
+  src: url(fonts/Bold.woff) format("woff");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+}
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: block;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+a {
+  background-color: transparent;
+}
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+}
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+img {
+  border-style: none;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+[type=button],
+[type=reset],
+[type=submit],
+button {
+  -webkit-appearance: button;
+}
+
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+
+progress {
+  vertical-align: baseline;
+}
+
+textarea {
+  overflow: auto;
+}
+
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+
+details {
+  display: block;
+}
+
+summary {
+  display: list-item;
+}
+
+template {
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 0.625vw;
+}
+@media only screen and (max-width: 1024px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+body {
+  font-family: "segoe", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 4.8rem;
+  line-height: 5.2rem;
+}
+
+h2 {
+  font-size: 4rem;
+  line-height: 4.5rem;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 3.54rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-weight: 300;
+}
+
+p {
+  font-size: 2.4rem;
+  line-height: 1.42rem;
+}
+
+/* BEM Blocks */
+.header {
+  max-width: 120rem;
+  width: 100%;
+  padding: 0 2rem;
+  margin: 0 auto;
+  background: #142d4c;
+  background: -moz-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  background: -webkit-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#62a7ff",endColorstr="#142d4c",GradientType=1);
+  padding-top: 2.3rem;
+  padding-bottom: 2.3rem;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=main.css.map*/

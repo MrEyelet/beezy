@@ -1,0 +1,35 @@
+//colors
+$color-dark: #2d3236;
+$color-dimmed: #9fa3a7;
+$color-white: #ffffff;
+$color-brand-primary: #215398;
+$color-brand-secondary: #28a9e0;
+$color-light: rgba(255, 255, 255, 0.87);
+$color-ornate: #ff6347;
+
+//layout
+$wrapper-width: 120rem;
+$wrapper-padding: 2rem;
+$vw-base: 1600;
+
+// $real-100vh: calc(var(--vh, 1vh) * 100);
+
+//font styles
+$base-font: "segoe", sans-serif;
+$base-font-weight: 300;
+$base-font-size: 2rem;
+
+//z-index
+$over-all: 99999999;
+$over-content: 100;
+$below-content: -100;
+
+//bp
+$screen-mobile-sm: 320px;
+$screen-mobile: 376px;
+$screen-mobile-lg: 480px;
+$screen-phablet: 576px;
+$screen-portrait: 768px;
+$screen-portrait-lg: 992px;
+$screen-tablet: 1024px;
+$screen-laptop-sm: 1200px;
