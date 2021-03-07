@@ -23,9 +23,6 @@
   @include mobile-sm {
     width: 20rem;
   }
-  // @media only screen and (max-height: 650px) {
-  //   height: calc(100vh - 12rem);
-  // }
   &__image {
     // height: 100%;
     object-fit: contain;
@@ -42,8 +39,5 @@
     @include mobile-sm {
       clip: rect(0px, auto, 17rem, 0px);
     }
-    // @media only screen and (max-height: 650px) {
-    //   height: 100%;
-    // }
   }
 }

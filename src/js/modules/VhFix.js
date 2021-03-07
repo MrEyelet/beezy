@@ -1,6 +1,5 @@
-class Test {
+class VhFix {
   constructor() {
-    console.log("test log")
     this.pageLoad()
     this.resizeScreen()
   }
@@ -21,4 +20,4 @@ class Test {
   }
 }
 
-export default Test
+export default VhFix

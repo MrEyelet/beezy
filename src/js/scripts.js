@@ -1,7 +1,7 @@
 // Modules / classes
-import Test from "./modules/Test"
+import VhFix from "./modules/VhFix"
 import AppearElements from "./modules/AppearElements"
 
 // Instantiate a new object using our modules/classes
-// var test = new Test()
+var vhFix = new VhFix()
 var appearElements = new AppearElements()
