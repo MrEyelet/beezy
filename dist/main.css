@@ -349,11 +349,28 @@ img {
 }
 
 .visual {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
   width: 37.4rem;
-  padding: 1.2rem 0;
+  margin: 1.2rem 0;
   position: relative;
   left: 7.5rem;
   bottom: -6rem;
+}
+.visual:before {
+  content: "";
+  display: block;
+  padding-top: 195.7219251337%;
+}
+.visual img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
 }
 @media only screen and (max-width: 1024px) {
   .visual {
@@ -542,7 +559,6 @@ img {
 }
 .form__input:focus {
   outline: none;
-  border: none;
 }
 .form__input:invalid ~ .form__error {
   opacity: 1;

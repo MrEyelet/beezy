@@ -1,6 +1,7 @@
 .visual {
+  @include resp-img((732/374) * 100%);
   width: 37.4rem;
-  padding: 1.2rem 0;
+  margin: 1.2rem 0;
   // height: calc(100vh - 16rem);
   position: relative;
   left: 7.5rem;

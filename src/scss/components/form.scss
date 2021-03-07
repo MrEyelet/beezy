@@ -32,7 +32,7 @@
     }
     &:focus {
       outline: none;
-      border: none;
+      // border: 3px solid $color-ornate;
     }
     &:invalid ~ .form__error {
       opacity: 1;
