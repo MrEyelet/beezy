@@ -1,6 +1,5 @@
 .hero {
   @include gradient;
-  // min-height: 83vh;
   @include portrait {
     min-height: $real-100vh;
   }

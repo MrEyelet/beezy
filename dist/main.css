@@ -319,16 +319,12 @@ img {
 /* BEM Blocks */
 .hero {
   background: #142d4c;
-  background: -moz-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  background: -webkit-linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  background: linear-gradient(270deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=$color-gradient-4,endColorstr=$color-gradient-1,GradientType=1);
+  background: linear-gradient(270deg, #4f6dd1 0%, #435ab6 38%, #3f51ad 72%, #142d4c 100%);
 }
 @media only screen and (max-width: 768px) {
   .hero {
-    background: -moz-linear-gradient(0deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-    background: -webkit-linear-gradient(0deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
-    background: linear-gradient(0deg, #62a7ff 0%, #435ab6 46%, #3f51ad 51%, #142d4c 100%);
+    background: #142d4c;
+    background: linear-gradient(0deg, #4f6dd1 0%, #435ab6 38%, #3f51ad 72%, #142d4c 100%);
   }
 }
 @media only screen and (max-width: 768px) {
