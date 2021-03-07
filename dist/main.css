@@ -493,6 +493,7 @@ img {
   position: absolute;
   top: 4rem;
   right: 4rem;
+  z-index: 100;
 }
 .socials__ic {
   width: 3.2rem;
@@ -626,7 +627,7 @@ img {
   left: -100%;
   right: 0;
   bottom: 0;
-  background-color: #142d4c;
+  background-color: #ff6347;
   z-index: 99999999;
 }
 .preloader__outer-circle {
@@ -637,7 +638,7 @@ img {
   border-radius: 50%;
   justify-content: center;
   align-items: center;
-  background-color: #142d4c;
+  background-color: #ff6347;
   animation: circular 0.5s infinite;
 }
 @media screen and (max-width: 576px) {

@@ -3,6 +3,7 @@
   position: absolute;
   top: 4rem;
   right: 4rem;
+  z-index: $over-content;
   &__ic {
     width: 3.2rem;
     &:nth-of-type(n + 2) {
