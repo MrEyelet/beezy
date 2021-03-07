@@ -23,7 +23,7 @@
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     &:invalid {
-      border: 3px solid #ff4d4d;
+      border: 3px solid $color-ornate;
     }
     &:placeholder-shown {
       border: none;
@@ -59,7 +59,6 @@
     &:-ms-input-placeholder + .form__label {
       display: block;
     }
-
     @include phablet {
       height: 4.5rem;
     }
@@ -77,8 +76,10 @@
     border-bottom-right-radius: 8px;
     font-size: 1.4rem;
     letter-spacing: 2.8px;
+    transition: 0.35s background-color ease-in-out;
     &:hover {
       cursor: pointer;
+      background-color: $color-gradient-1;
     }
     @include phablet {
       height: 4.5rem;
@@ -106,6 +107,7 @@
     margin: 0;
     position: absolute;
     top: -3rem;
+    left: 0;
     font-size: 1.2rem;
     color: #00fff3;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);

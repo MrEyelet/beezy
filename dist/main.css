@@ -349,6 +349,7 @@ img {
 
 .visual {
   width: 37.4rem;
+  height: calc(100vh - 16rem);
   position: relative;
   left: 11.5rem;
   bottom: -6rem;
@@ -533,7 +534,7 @@ img {
   border-bottom-left-radius: 8px;
 }
 .form__input:invalid {
-  border: 3px solid #ff4d4d;
+  border: 3px solid #ff6347;
 }
 .form__input:placeholder-shown {
   border: none;
@@ -586,9 +587,11 @@ img {
   border-bottom-right-radius: 8px;
   font-size: 1.4rem;
   letter-spacing: 2.8px;
+  transition: 0.35s background-color ease-in-out;
 }
 .form__button:hover {
   cursor: pointer;
+  background-color: #142d4c;
 }
 @media screen and (max-width: 576px) {
   .form__button {
@@ -619,6 +622,7 @@ img {
   margin: 0;
   position: absolute;
   top: -3rem;
+  left: 0;
   font-size: 1.2rem;
   color: #00fff3;
   transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
