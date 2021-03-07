@@ -8,6 +8,13 @@
     <link rel="stylesheet" href="dist/main.css" />
   </head>
   <body>
+    <div class="preloader">
+      <div class="preloader__cover"></div>
+      <div class="preloader__outer-circle">
+        <div class="preloader__gap"></div>
+        <div class="preloader__inner-circle"></div>
+      </div>
+    </div>
     <section class="section">
       <div class="socials">
         <div class="socials__ic"><img src="src/images/icons/ic-mail.svg" alt="icon" /></div>
@@ -18,10 +25,17 @@
           <div class="visual"><img class="visual__image" src="src/images/iphones-final.png" alt="" /></div>
           <div class="intro">
             <div class="intro__logo">
-              <img src="src/images/logo.svg" alt="logo" />
+              <span class="cover" aria-hidden="true"></span>
+              <img class="reveal" src="src/images/logo.svg" alt="logo" />
             </div>
-            <h1 class="intro__header">Curabitur lobortis id lorem id bibendum ut id consectetur.</h1>
-            <p class="intro__desc">Vestibulum rutrum quam vitae fringilla tincidunt amet suspendisse nec tortor</p>
+              <h1 class="intro__header">
+                <span class="cover" aria-hidden="true"></span>
+                <span class="reveal">Curabitur lobortis id lorem id bibendum ut id consectetur.</span>
+              </h1>
+              <p class="intro__desc">
+                <span class="cover" aria-hidden="true"></span>
+                <span class="reveal">Vestibulum rutrum quam vitae fringilla tincidunt amet suspendisse nec tortor</span>
+              </p>
             <form class="form" action="yourUrl">
               <div class="form__field">
                 <div class="form__group">

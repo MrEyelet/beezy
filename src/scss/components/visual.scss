@@ -13,8 +13,7 @@
   }
   @include phablet {
     top: 10rem;
-    left: 50%;
-    transform: translateX(-50%);
+    margin: 0 auto;
   }
   @include mobile-lg {
     width: 30rem;
