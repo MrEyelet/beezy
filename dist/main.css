@@ -211,6 +211,11 @@ template {
 html {
   font-size: 0.625vw;
 }
+@media (min-width: 2560px) {
+  html {
+    font-size: 10px;
+  }
+}
 @media only screen and (max-width: 1024px) {
   html {
     font-size: 10px;
@@ -349,18 +354,14 @@ img {
 
 .visual {
   width: 37.4rem;
-  height: calc(100vh - 16rem);
+  padding: 1.2rem 0;
   position: relative;
   left: 11.5rem;
   bottom: -6rem;
 }
-@media (max-width: 1440px) {
-  .visual {
-    height: auto;
-  }
-}
 @media only screen and (max-width: 1024px) {
   .visual {
+    padding: 0;
     left: 0;
   }
 }
@@ -381,13 +382,7 @@ img {
   }
 }
 .visual__image {
-  height: 100%;
   object-fit: contain;
-}
-@media (max-width: 1440px) {
-  .visual__image {
-    height: auto;
-  }
 }
 @media screen and (max-width: 576px) {
   .visual__image {

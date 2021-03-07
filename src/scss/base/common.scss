@@ -3,6 +3,9 @@
 }
 html {
   font-size: vw(10);
+  @include xxl {
+    font-size: 10px;
+  }
   @include tablet {
     font-size: 10px;
   }
