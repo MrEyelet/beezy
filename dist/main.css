@@ -211,7 +211,7 @@ template {
 html {
   font-size: 0.625vw;
 }
-@media (min-width: 2560px) {
+@media (min-width: 1920px) {
   html {
     font-size: 10px;
   }
@@ -334,13 +334,18 @@ img {
   }
 }
 .hero__wrapper {
-  max-width: calc(120rem + 2 * (2rem));
+  max-width: calc(120rem + 2 * (4rem));
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 4rem;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+@media screen and (max-width: 576px) {
+  .hero__wrapper {
+    padding: 0 2rem;
+  }
 }
 @media screen and (max-width: 576px) {
   .hero__wrapper {
@@ -492,15 +497,14 @@ img {
 }
 @media only screen and (max-width: 768px) {
   .intro__desc {
-    font-size: 1.8rem;
-    line-height: 2.2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
   }
 }
 @media screen and (max-width: 576px) {
   .intro__desc {
     margin-bottom: 2.5rem;
     font-size: 1.6rem;
-    line-height: 2.4rem;
   }
 }
 
