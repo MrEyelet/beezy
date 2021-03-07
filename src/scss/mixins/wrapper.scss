@@ -1,5 +1,5 @@
 @mixin wrapper {
-  max-width: $wrapper-width;
+  max-width: calc(#{$wrapper-width} + 2 * (#{$wrapper-padding}));
   width: 100%;
   padding: 0 $wrapper-padding;
   margin: 0 auto;

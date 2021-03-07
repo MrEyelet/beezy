@@ -333,7 +333,7 @@ img {
   }
 }
 .hero__wrapper {
-  max-width: 132rem;
+  max-width: calc(120rem + 2 * (2rem));
   width: 100%;
   padding: 0 2rem;
   margin: 0 auto;
@@ -352,7 +352,7 @@ img {
   width: 37.4rem;
   padding: 1.2rem 0;
   position: relative;
-  left: 11.5rem;
+  left: 7.5rem;
   bottom: -6rem;
 }
 @media only screen and (max-width: 1024px) {
@@ -401,7 +401,7 @@ img {
 .intro {
   max-width: 64.5rem;
   width: 100%;
-  padding: 0 0 0 2rem;
+  padding: 0 0 0 6rem;
   margin: 16.4rem 0 2rem 0;
 }
 @media only screen and (max-width: 768px) {
