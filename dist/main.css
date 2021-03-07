@@ -404,8 +404,14 @@ img {
   padding: 0 0 0 2rem;
   margin: 16.4rem 0 2rem 0;
 }
+@media only screen and (max-width: 768px) {
+  .intro {
+    max-width: 35rem;
+  }
+}
 @media screen and (max-width: 576px) {
   .intro {
+    max-width: none;
     margin: 4rem 0 0 0;
     padding-left: 0;
     text-align: center;

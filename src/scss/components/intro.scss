@@ -3,7 +3,11 @@
   width: 100%;
   padding: 0 0 0 2rem;
   margin: 16.4rem 0 2rem 0;
+  @include portrait {
+    max-width: 35rem;
+  }
   @include phablet {
+    max-width: none;
     margin: 4rem 0 0 0;
     padding-left: 0;
     text-align: center;
