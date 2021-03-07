@@ -29,6 +29,7 @@
     }
     @include phablet {
       margin-top: 35rem;
+      margin-bottom: 1rem;
       font-size: 2.4rem;
       line-height: 2.8rem;
     }
@@ -36,7 +37,7 @@
       margin-top: 25rem;
     }
     @include mobile-sm {
-      margin-top: 16rem;
+      margin-top: 21.3rem;
     }
   }
   &__desc {
@@ -50,6 +51,7 @@
       line-height: 2.2rem;
     }
     @include phablet {
+      margin-bottom: 2.5rem;
       font-size: 1.6rem;
       line-height: 2.4rem;
     }

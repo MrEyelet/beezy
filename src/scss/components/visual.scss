@@ -11,7 +11,7 @@
     left: 0;
   }
   @include phablet {
-    top: 10rem;
+    top: 10.5rem;
     margin: 0 auto;
   }
   @include mobile-lg {
@@ -34,7 +34,7 @@
       clip: rect(0px, auto, 20rem, 0px);
     }
     @include mobile-sm {
-      clip: rect(0px, auto, 12rem, 0px);
+      clip: rect(0px, auto, 17rem, 0px);
     }
   }
 }
