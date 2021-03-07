@@ -1,11 +1,12 @@
 .socials {
   display: flex;
   position: absolute;
-  top: 4rem;
+  top: 5rem;
   right: 4rem;
   z-index: $over-content;
   &__ic {
     width: 3.2rem;
+    padding: 0 5px;
     &:nth-of-type(n + 2) {
       margin-left: 1rem;
     }
