@@ -2,9 +2,9 @@
   max-width: 64.5rem;
   width: 100%;
   padding: 0 0 0 2rem;
-  margin: 16.4rem 0 0 0;
+  margin: 16.4rem 0 2rem 0;
   @include phablet {
-    margin-top: 4rem;
+    margin: 4rem 0 0 0;
     padding-left: 0;
     text-align: center;
   }

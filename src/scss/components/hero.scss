@@ -1,6 +1,6 @@
 .hero {
   @include gradient;
-  @include portrait {
+  @include phablet {
     min-height: $real-100vh;
   }
   &__wrapper {

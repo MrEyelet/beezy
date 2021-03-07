@@ -25,7 +25,7 @@ class AppearElements {
     this.tlShowElements.from(".hero", { duration: 1, y: "-80%", opacity: 0, ease: Power4.easeOut }, "=-0.75")
     this.tlShowElements.from(".visual", { duration: 1.5, x: "-25px", rotateY: "25deg", opacity: 0, ease: Power1.easeOut }, "=-0.25")
     this.tlShowElements.from(".cover", { duration: 0.75, scaleX: 0, opacity: 0, stagger: 0.25, ease: Power1.easeInOut }, "=-1")
-    this.tlShowElements.to(".cover + .reveal", { duration: 0, opacity: 1 }, "=-0.15")
+    this.tlShowElements.to(".cover + .reveal", { duration: 0, opacity: 1 })
     this.tlShowElements.to(".cover", { duration: 0.75, scaleY: 0, transformOrigin: "bottom", ease: Power4.easeOut })
     this.tlShowElements.from(".form__button", { duration: 0.75, opacity: 0, ease: Power4.easeOut }, "=-0.25")
     this.tlShowElements.to(".form__input", { duration: 0.75, width: "100%", paddingLeft: "2rem", ease: Power4.easeOut })

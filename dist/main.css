@@ -327,7 +327,7 @@ img {
     background: linear-gradient(0deg, #4f6dd1 0%, #435ab6 38%, #3f51ad 72%, #142d4c 100%);
   }
 }
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   .hero {
     min-height: calc(var(--vh, 1vh) * 100);
   }
@@ -357,6 +357,7 @@ img {
 }
 @media only screen and (max-width: 1024px) {
   .visual {
+    padding: 3.2rem 0;
     padding: 0;
     left: 0;
   }
@@ -401,11 +402,11 @@ img {
   max-width: 64.5rem;
   width: 100%;
   padding: 0 0 0 2rem;
-  margin: 16.4rem 0 0 0;
+  margin: 16.4rem 0 2rem 0;
 }
 @media screen and (max-width: 576px) {
   .intro {
-    margin-top: 4rem;
+    margin: 4rem 0 0 0;
     padding-left: 0;
     text-align: center;
   }
