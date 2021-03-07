@@ -1,6 +1,7 @@
 .hero {
   @include gradient;
   @include phablet {
+    min-height: 100vh;
     min-height: $real-100vh;
   }
   &__wrapper {

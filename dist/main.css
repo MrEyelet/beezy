@@ -329,6 +329,7 @@ img {
 }
 @media screen and (max-width: 576px) {
   .hero {
+    min-height: 100vh;
     min-height: calc(var(--vh, 1vh) * 100);
   }
 }
@@ -483,7 +484,7 @@ img {
   }
 }
 .intro__desc {
-  margin: 0 0 5rem 0;
+  margin: 0 0 4.8rem 0;
   position: relative;
   color: rgba(255, 255, 255, 0.87);
   line-height: 1.42;
@@ -530,7 +531,7 @@ img {
 }
 
 .form__field {
-  max-width: 41.5rem;
+  max-width: 41.7rem;
   width: 100%;
   position: relative;
   margin: 0 0 1rem;
