@@ -1,5 +1,5 @@
 .form {
-  overflow: hidden;
+  // overflow: hidden;
   &__field {
     max-width: 41.5rem;
     width: 100%;
@@ -16,11 +16,50 @@
     height: 5.5rem;
     width: 0;
     border: none;
-    font-size: 2.4rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
     padding: 0;
     position: relative;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    &:invalid {
+      border: 3px solid #ff4d4d;
+    }
+    &:placeholder-shown {
+      border: none;
+    }
+    &:-ms-input-placeholder {
+      border: none;
+    }
+    &:focus {
+      outline: none;
+      border: none;
+    }
+    &:invalid ~ .form__error {
+      opacity: 1;
+    }
+    &:placeholder-shown ~ .form__error {
+      max-height: 0;
+      opacity: 0;
+    }
+    &:-ms-input-placeholder ~ .form__error {
+      max-height: 0;
+      opacity: 0;
+    }
+    &:valid + .form__label,
+    &:invalid + .form__label {
+      display: none;
+    }
+    &:focus + .form__label {
+      display: none;
+    }
+    &:placeholder-shown + .form__label {
+      display: block;
+    }
+    &:-ms-input-placeholder + .form__label {
+      display: block;
+    }
+
     @include phablet {
       height: 4.5rem;
     }
@@ -50,7 +89,7 @@
     padding: 0 0 0 2rem;
     position: absolute;
     left: 0;
-    top: 35%;
+    top: 50%;
     transform: translateY(-50%);
     z-index: $over-content;
     font-size: 2rem;
@@ -64,25 +103,41 @@
     }
   }
   &__error {
-    color: #ff4d4d;
+    margin: 0;
+    position: absolute;
+    top: -3rem;
+    font-size: 1.2rem;
+    color: #00fff3;
     transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
-    max-height: 0;
     opacity: 0;
   }
 }
 
-.form__field__input:invalid {
-  border-bottom: 1px solid #ff4d4d;
-}
+// .form__input:invalid ~ .form__error {
+//   max-height: 40px;
+//   opacity: 1;
+// }
+// .form__input:placeholder-shown ~ .form__error {
+//   max-height: 0;
+//   opacity: 0;
+// }
 
-.form__field__input:placeholder-shown {
-  border-bottom: 1px solid #65449b;
-}
+// .form__input:-ms-input-placeholder ~ .form__error {
+//   max-height: 0;
+//   opacity: 0;
+// }
 
-.form__field__input:-ms-input-placeholder {
-  border-bottom: 1px solid #65449b;
-}
+// .form__input:valid + .form__label,
+// .form__input:invalid + .form__label {
+//   display: none;
+// }
+// .form__input:focus + .form__label {
+//   display: none;
+// }
+// .form__input:placeholder-shown + .form__label {
+//   display: block;
+// }
 
-.form__field__input:focus {
-  outline: none;
-}
+// .form__input:-ms-input-placeholder + .form__label {
+//   display: block;
+// }

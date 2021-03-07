@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="dist/main.css" />
   </head>
   <body>
-    <div class="preloader">
+    <!-- <div class="preloader">
       <div class="preloader__outer-circle">
         <div class="preloader__gap"></div>
         <div class="preloader__inner-circle"></div>
       </div>
-    </div>
+    </div> -->
     <section class="section">
       <div class="socials">
-        <div class="socials__ic"><img src="src/images/icons/ic-mail.svg" alt="icon" /></div>
-        <div class="socials__ic"><img src="src/images/icons/ic-twitter.svg" alt="icon" /></div>
+        <a href="mailto:" class="socials__ic" target="blank"><img src="src/images/icons/ic-mail.svg" alt="icon" /></a>
+        <a href="https://twitter.com" class="socials__ic" target="blank"><img src="src/images/icons/ic-twitter.svg" alt="icon" /></a>
       </div>
       <div class="hero">
         <div class="hero__wrapper">
@@ -38,11 +38,11 @@
             <form class="form" action="yourUrl">
               <div class="form__field">
                 <div class="form__group">
-                  <input type="email" class="form__input" placeholder=" " required>
+                  <input type="email" class="form__input" placeholder=" " required  pattern="[a-zA-Z0-9-]{1,}@[a-zA-Z0-9-]{1,}[.]{1}[a-zA-Z]{2,}" title="address@example.com">
+                  <label for="" class="form__label">Your O365 email</label>
+                  <p class="form__error">Is your Email correct?</p>
                   <button  class="form__button" type="submit">Send</button>
                 </div>
-                <label for="" class="form__label">Your O365 email</label>
-                <p class="form__error">Is your Email correct?</p>
               </div>
             </div>
           </form>

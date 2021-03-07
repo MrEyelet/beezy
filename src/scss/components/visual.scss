@@ -1,6 +1,6 @@
 .visual {
   width: 37.4rem;
-  height: calc(100vh - 16rem);
+  // height: calc(100vh - 16rem);
   position: relative;
   left: 11.5rem;
   bottom: -6rem;
@@ -15,7 +15,7 @@
     margin: 0 auto;
   }
   @include mobile-lg {
-    width: 30rem;
+    width: 25rem;
   }
   @include mobile-sm {
     width: 20rem;
@@ -31,7 +31,7 @@
       clip: rect(0px, auto, 30rem, 0px);
     }
     @include mobile-lg {
-      clip: rect(0px, auto, 20rem, 0px);
+      clip: rect(0px, auto, 21rem, 0px);
     }
     @include mobile-sm {
       clip: rect(0px, auto, 17rem, 0px);
