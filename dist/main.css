@@ -355,9 +355,6 @@ img {
 }
 
 .visual {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
   position: relative;
   width: 37.4rem;
   margin: 1.2rem 0;
