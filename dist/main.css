@@ -239,7 +239,7 @@ h1 {
     line-height: 3.6rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   h1 {
     font-size: 2.4rem;
     line-height: 2.8rem;
@@ -256,7 +256,7 @@ h2 {
     line-height: 3rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   h2 {
     font-size: 2.2rem;
     line-height: 2.4rem;
@@ -273,7 +273,7 @@ h3 {
     line-height: 2.8rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   h3 {
     font-size: 2rem;
     line-height: 2.2rem;
@@ -300,7 +300,7 @@ p {
     line-height: 2.2rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   p {
     font-size: 1.6rem;
     line-height: 2.4rem;
@@ -327,7 +327,7 @@ img {
     background: linear-gradient(0deg, #4f6dd1 0%, #435ab6 38%, #3f51ad 72%, #142d4c 100%);
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .hero {
     min-height: 100vh;
     min-height: calc(var(--vh, 1vh) * 100);
@@ -342,12 +342,12 @@ img {
   justify-content: space-between;
   align-items: flex-start;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .hero__wrapper {
     padding: 0 2rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .hero__wrapper {
     flex-direction: column;
     overflow: hidden;
@@ -387,7 +387,7 @@ img {
     left: 0;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .visual {
     top: 10.5rem;
     margin: 0 auto;
@@ -412,7 +412,7 @@ img {
 .visual__image {
   object-fit: contain;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .visual__image {
     position: absolute;
     clip: rect(0px, auto, 30rem, 0px);
@@ -445,7 +445,7 @@ img {
     max-width: 35rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .intro {
     max-width: none;
     margin: 4rem 0 4rem 0;
@@ -459,7 +459,7 @@ img {
   position: relative;
   margin-bottom: 2.8rem;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .intro__logo {
     margin: 0 auto;
   }
@@ -477,7 +477,7 @@ img {
     line-height: 3.6rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .intro__header {
     margin-top: 35rem;
     margin-bottom: 1rem;
@@ -513,7 +513,7 @@ img {
     line-height: 2.4rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .intro__desc {
     margin-bottom: 2.5rem;
     font-size: 1.6rem;
@@ -540,7 +540,7 @@ img {
 .socials__ic:hover img {
   opacity: 0.7;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .socials {
     display: none;
   }
@@ -552,7 +552,7 @@ img {
   position: relative;
   margin: 0 0 1rem;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .form__field {
     max-width: 100%;
   }
@@ -606,7 +606,7 @@ img {
 .form__input:-ms-input-placeholder + .form__label {
   display: block;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .form__input {
     height: 4.5rem;
   }
@@ -630,7 +630,7 @@ img {
   cursor: pointer;
   background-color: #142d4c;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .form__button {
     height: 4.5rem;
     padding: 0 2.2rem;
@@ -655,7 +655,7 @@ img {
     line-height: 1.6rem;
   }
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .form__label {
     padding-left: 1rem;
     font-size: 1.7rem;
@@ -697,7 +697,7 @@ img {
   background-color: #ff6347;
   animation: circular 0.5s infinite;
 }
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   .preloader__outer-circle {
     width: 7rem;
     height: 7rem;
