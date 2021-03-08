@@ -5,9 +5,9 @@ const path = require("path")
 module.exports = {
   entry: "./src/main.js",
   output: {
-    filename: "bundle.min.js",
-    path: path.join(__dirname, "./dist"),
-    publicPath: "dist/"
+    path: path.join(__dirname, "/dist"),
+    publicPath: "/dist",
+    filename: "bundle.min.js"
   },
   watch: false,
   mode: "development",
