@@ -6,7 +6,7 @@ module.exports = {
   entry: "./src/main.js",
   output: {
     filename: "bundle.min.js",
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "./dist"),
     publicPath: "dist/"
   },
   watch: false,

@@ -21,6 +21,7 @@
     position: relative;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
+    box-shadow: none;
     &:invalid {
       border: 3px solid $color-ornate;
     }
