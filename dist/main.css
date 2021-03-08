@@ -402,7 +402,7 @@ img {
     width: 25rem;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .visual {
     width: 20rem;
   }
@@ -421,7 +421,7 @@ img {
     clip: rect(0px, auto, 30rem, 0px);
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .visual__image {
     clip: rect(0px, auto, 17rem, 0px);
   }
@@ -483,7 +483,7 @@ img {
     margin-top: 33rem;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 360px) {
   .intro__header {
     margin-top: 21.3rem;
   }
