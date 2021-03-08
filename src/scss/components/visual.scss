@@ -9,6 +9,9 @@
   // @include laptop {
   //   height: auto;
   // }
+  @include laptop {
+    width: 30rem;
+  }
   @include tablet {
     padding: 3.2rem 0;
     padding: 0;
