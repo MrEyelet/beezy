@@ -357,7 +357,7 @@ img {
 .visual {
   position: relative;
   width: 37.4rem;
-  margin: 1.2rem 0;
+  margin: 1.4rem 0;
   position: relative;
   left: 7.5rem;
   bottom: -6rem;
@@ -653,6 +653,12 @@ img {
   .form__label {
     font-size: 1.4rem;
     line-height: 1.6rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .form__label {
+    padding-left: 1rem;
+    font-size: 1.7rem;
   }
 }
 .form__error {
