@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: "bundle.min.js",
     path: path.join(__dirname, "dist"),
-    publicPath: "/dist/"
+    publicPath: "dist/"
   },
   watch: false,
   mode: "development",
