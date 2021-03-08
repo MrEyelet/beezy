@@ -7,8 +7,9 @@ module.exports = {
   output: {
     filename: "bundle.min.js",
     path: path.resolve(__dirname, "./dist"),
-    //reload on chage, uncoment when working locally
+    //reload on change, uncoment when working localy
     // publicPath: "/dist/"
+
     //github public path below, uncoment before production build
     publicPath: "/beezy/dist/"
   },

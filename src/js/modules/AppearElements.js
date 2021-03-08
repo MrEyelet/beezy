@@ -4,7 +4,7 @@ gsap.registerPlugin()
 class AppearElements {
   constructor() {
     this.preloader = document.querySelector(".preloader")
-    this.inputEmail = document.querySelector(".form__input")
+    this.inputField = document.querySelector(".form__input")
     this.tlShowElements = new TimelineMax({})
 
     this.events()
@@ -14,7 +14,7 @@ class AppearElements {
     document.addEventListener("DOMContentLoaded", () => {
       window.onload = () => {
         window.requestAnimationFrame(() => {
-          this.inputEmail.value == ""
+          this.inputField.value = ""
           this.showElements()
         })
       }
