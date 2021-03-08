@@ -7,7 +7,6 @@ module.exports = {
   output: {
     filename: "bundle.min.js",
     path: path.resolve(__dirname, "./dist")
-    // publicPath: "/dist/"
   },
   watch: false,
   mode: "development",
