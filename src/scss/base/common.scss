@@ -2,9 +2,9 @@
   box-sizing: border-box;
 }
 html {
-  font-size: vw(10);
+  font-size: 10px;
   @include xxl {
-    font-size: 10px;
+    font-size: vw(10);
   }
   @include tablet {
     font-size: 10px;
