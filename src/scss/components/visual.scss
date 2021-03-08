@@ -2,15 +2,11 @@
   @include resp-img((732/374) * 100%);
   width: 37.4rem;
   margin: 1.4rem 0;
-  // height: calc(100vh - 16rem);
   position: relative;
   left: 7.5rem;
   bottom: -6rem;
-  // @include laptop {
-  //   height: auto;
-  // }
   @include laptop {
-    width: 30rem;
+    width: 32rem;
   }
   @include tablet {
     padding: 3.2rem 0;
@@ -34,11 +30,7 @@
     width: 20rem;
   }
   &__image {
-    // height: 100%;
     object-fit: contain;
-    // @include laptop {
-    //   height: auto;
-    // }
     @include phablet {
       position: absolute;
       clip: rect(0px, auto, 30rem, 0px);
