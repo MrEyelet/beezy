@@ -3,6 +3,11 @@
     @content;
   }
 }
+@mixin mobile {
+  @media screen and (max-width: #{$screen-mobile}) {
+    @content;
+  }
+}
 @mixin mobile-lg {
   @media screen and (max-width: #{$screen-mobile-lg}) {
     @content;

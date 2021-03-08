@@ -40,6 +40,9 @@
     @include mobile-lg {
       margin-top: 33rem;
     }
+    @include mobile {
+      margin-top: 28rem;
+    }
     @include mobile-sm {
       margin-top: 21.3rem;
     }
