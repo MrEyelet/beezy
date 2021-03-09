@@ -5,6 +5,7 @@
   position: relative;
   left: 7.5rem;
   bottom: -6rem;
+  -webkit-backface-visibility: hidden;
   @include laptop {
     width: 32rem;
   }
