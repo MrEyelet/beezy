@@ -10,7 +10,8 @@
     "start": "babel src -d public"
   },
   "browserslist": [
-    "defaults"
+    "> 1%",
+    "last 2 versions"
   ],
   "keywords": [],
   "author": "",
