@@ -421,7 +421,7 @@ img {
 }
 @media screen and (max-width: 480px) {
   .visual__image {
-    clip: rect(0px, auto, 30rem, 0px);
+    clip: rect(0px, auto, 50vh, 0px);
   }
 }
 @media screen and (max-width: 375px) {

@@ -37,7 +37,7 @@
       clip: rect(0px, auto, 30rem, 0px);
     }
     @include mobile-lg {
-      clip: rect(0px, auto, 30rem, 0px);
+      clip: rect(0px, auto, 50vh, 0px);
     }
     @include mobile {
       clip: rect(0px, auto, 25rem, 0px);
